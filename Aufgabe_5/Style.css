@@ -1,0 +1,92 @@
+/*Obere Leiste*/
+header{
+    font-size: 24px;
+    font-family: 'Genos', sans-serif;
+}
+
+/*Animation Slideshow*/
+.slider{height: 400px;
+background: url(Auge.jpg);
+animation: slide 20s infinite;}
+
+@keyframes slide{ 25%{background: url(Auge.jpg);}
+50%{background: url(Frog.jpg);}
+75%{background: url(Law1.jpg);}
+100%{background: url(Law2.jpg);}}
+
+.Störer{position: fixed;
+top: 0px;
+right: 0px;}
+
+/*logo*/
+.Logo{float: left;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+/*Seite an sich*/
+body{
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Genos', sans-serif;
+}
+.Content {
+    max-width: 900px;
+    margin: auto;
+    border-spacing: 30px;
+  }
+/*Untere Leiste*/
+footer{
+    background-color: #eaeaea;
+    font-family: 'Genos', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+    height:fit-content;
+}
+.flex-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+/*Navigations Leiste*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: right;
+    padding: 30px;
+}  
+a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: rgb(66, 64, 64);
+}
+/* Change the link color on hover */
+li a:hover {
+    color: black;
+    text-decoration:underline;
+}
+/*About me Seite*/
+.text{
+    font-size: 20px;
+    font-family: 'Genos', sans-serif;
+    color: black;
+    padding: 15px;
+    text-align:start;
+    display:inline-block;
+}
+.Me{
+    display:inline-block;
+}
+/*Bilder hervorheben*/
+.Bilder img:hover{
+    transform: scale(1.2);
+}
+/*links hervorheben beim drüber fahren*/
