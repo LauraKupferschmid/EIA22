@@ -7,7 +7,7 @@ const Italien = 59.07;
 const Schweden = 10.42;
 const Europa = 447.70;
 
-console.log("Die Einwohner Zahl von Deutschand betrug im Jahr 2022 schätzungsweise "+ Deutschland +" Mio .")
+console.log("Die Einwohner Zahl von Deutschand betrug im Jahr 2022 schätzungsweise  "+ Deutschland +" Mio .")
 console.log("Die Einwohner Zahl von Deutschand betrug im Jahr 2022 schätzungsweise "+ Frankreich +" Mio .")
 console.log("Die Einwohner Zahl von Deutschand betrug im Jahr 2022 schätzungsweise "+ Italien +" Mio .")
 console.log("Die Einwohner Zahl von Deutschand betrug im Jahr 2022 schätzungsweise "+ Schweden +" Mio .")
