@@ -1,0 +1,37 @@
+/*buttons*/
+.class1{
+    border:none;
+    background-color: #0000ff;
+    height: 150px;
+    width: 150px;
+    margin: 2px;}
+
+.class2{
+    border:none;
+    background-color: #f52eff;
+    height: 150px;
+    width: 150px;
+    margin: 2px;}
+
+.class3{
+    border:none;
+    background-color: #be6f07;
+    height: 150px;
+    width: 150px;
+    margin: 2px;}
+.btn {
+    background-color: black;
+    border: none;
+    position: relative;
+    left: 152px;
+
+}
+
+body{
+    background-color: black;
+}
+.content {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
