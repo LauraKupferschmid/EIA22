@@ -37,6 +37,8 @@ h2,h3 {
     display:flex;
     padding: 5px;
     width: 100%;
+    justify-content:space-between;
+    flex-direction: row;
 }
 
 #tasks .task .content .text {
@@ -45,6 +47,8 @@ h2,h3 {
     transition: 0.4s;
     padding: none;
     margin: none;
+    position: relative;
+    left: -100%;
 }
 
 #tasks .task .content .text:not(:read-only){
@@ -60,15 +64,14 @@ h2,h3 {
     border: none;
     background-color: transparent;
     color: #374390;
-    float:right;
-    position: relative;
+    position: right;
 }
 
 .task {
     background-color: white;
     border-radius: 10px;
     padding: none;
-    margin: 0pxs;
+    margin: 0px;
     float: inline-start;
 }
 
