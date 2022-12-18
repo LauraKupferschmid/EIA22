@@ -25,7 +25,6 @@ window.addEventListener ('load',() =>{
        return;}
 
        const checkmark: HTMLDivElement = document.createElement("div");
-       list_el.appendChild(checkmark)
        const check: HTMLInputElement = document.createElement("input");
        check.setAttribute("type","checkbox")
        check.classList.add("check");
