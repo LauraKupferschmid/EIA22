@@ -20,7 +20,6 @@ var Aufgabe10;
                 return;
             }
             const checkmark = document.createElement("div");
-            list_el.appendChild(checkmark);
             const check = document.createElement("input");
             check.setAttribute("type", "checkbox");
             check.classList.add("check");
