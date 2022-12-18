@@ -48,7 +48,7 @@ h2,h3 {
     padding: none;
     margin: none;
     position: relative;
-    left: -100%;
+    left: -80%;
 }
 
 #tasks .task .content .text:not(:read-only){
