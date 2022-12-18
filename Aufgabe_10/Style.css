@@ -36,7 +36,7 @@ h2,h3 {
 #tasks .task {
     display:flex;
     padding: 5px;
-    width: 45%;
+    width: 100%;
 }
 
 #tasks .task .content .text {
