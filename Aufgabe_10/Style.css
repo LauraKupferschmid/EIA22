@@ -3,7 +3,7 @@ body {
     font-size: 24px;
     background-color: #9aa3db;
     margin: auto;
-    max-width: 500px;
+    max-width: 700px;
 }
 
 input {
@@ -19,7 +19,7 @@ input {
 main {
     flex: 1 1 0%;
     margin: auto;
-    max-width: 500px;
+    max-width: 700px;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
@@ -35,14 +35,13 @@ h2,h3 {
 
 #tasks .task {
     display:flex;
-    justify-content:flex-start;
     padding: 5px;
+    width: 45%;
 }
 
 #tasks .task .content .text {
     color: black;
     font-size: 15px;
-    width: 100%;
     transition: 0.4s;
     padding: none;
     margin: none;
@@ -61,15 +60,16 @@ h2,h3 {
     border: none;
     background-color: transparent;
     color: #374390;
+    float:right;
     position: relative;
-    left: 155px;
 }
 
 .task {
     background-color: white;
     border-radius: 10px;
     padding: none;
-    margin: 10px;
+    margin: 0pxs;
+    float: inline-start;
 }
 
 .check{
